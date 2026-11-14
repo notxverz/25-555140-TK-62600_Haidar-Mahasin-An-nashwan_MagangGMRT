@@ -17,3 +17,15 @@ This program is to calculate the forward kinematics of robotic arm with degree o
 | Homogeneous Transformation  | 1 |
 | Visualization  | 1 |
 | Inverse Kinematics | 0 |
+
+## How to Use/Run
+First you need to make sure you have numpy, math, and matplotlib python library. If not use copy this command and run on your terminal or search on the internet how to install
+For windows:
+```python
+python -m pip install numpy
+```
+```python
+python3 -m pip install matplotlib
+```
+
+after running the code, you will need to enter your degree of freedom of your choice and then you will be asked to enter the length and the angle of the arms. The program will return the output of the calculation.
